@@ -1,0 +1,210 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    
+}
+
+
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(0, 61, 0);
+    height: 50px;
+    
+    
+
+
+}
+
+.header-title{
+    display: flex;
+    font-size: 40px;
+    color: #1edd57;
+
+}
+
+.header-right{
+    display: flex;
+    flex: 1;
+    justify-content:end;
+
+}
+
+.centre-image{
+    display: block;
+    background-color: rgb(222, 250, 215);
+    border-radius: 30px;
+
+}
+
+.logo{
+    display: block;
+    height:250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 7px;
+
+
+}
+
+
+.navigate{
+    display: flex;
+    height: 50px;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-top: 40px;
+    border: 3px  solid black;    
+    border-radius: 50px;
+    margin-bottom: 10px;
+    
+}
+
+.link{
+    display: flex;
+    flex-direction: row;
+    text-decoration:none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7px;
+    color:darkgreen;
+    scroll-behavior:smooth ;
+}
+
+.intro{
+    display: flex;
+    flex-direction: row;
+}
+
+.intro-text{
+    padding-left: 90px;
+    padding-top: 100px;
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    min-width: 350px;
+    
+}
+
+.img1{
+    height:600px;
+    margin-left: 120px;
+    border-radius: 1000px;
+    border: 3px dotted  yellowgreen;
+    
+}
+.middle-part{
+    display: flex;
+    flex-direction: row;
+    padding-top: 200px;
+    
+
+}
+
+.img2{
+    height:600px;
+    margin-left: 90px;
+    border-radius: 1000px;
+    border: 3px dotted  yellowgreen;
+    
+}
+.about-us{
+    padding-left: 130px;
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    min-width: 350px;
+    max-width: 806px;
+    text-align: justify;
+    text-justify: inter-word;
+    
+    
+}
+
+.gallery{
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    marrgin-top: 100px;
+    
+    
+}
+.gallery-imgs{
+    display:flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right:auto ;
+    height:600px;
+    
+    
+}
+
+.gall-img{
+    display: flex;
+    border-radius: 40px;
+    max-width: 400px;
+    transition: .5s;
+    margin-right: 3px;
+    margin-left: 3px;
+
+}
+.gall-img:hover{
+    border-radius:70px ;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+}
+
+.gallery-img-name{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.top-button{
+    font-size: 40px;
+    text-decoration: none;
+}
+
+
+.to-top-button{
+    display: flex;
+    flex-direction:row-reverse;
+    
+}
+
+.top-button{
+    padding-right: 100px;
+}
+
+
+.buy-section{
+    display: flex;
+    flex-direction: row;
+    margin-left: 144px;
+}
+
+.card-shadow-sm{
+    max-width: 400px;
+    display: flex;
+    min-width: 350px;
+    flex-direction: column;
+    margin-right: 5px;
+    border: 2px  solid #644E41; 
+    border-radius: 15px;
+}
+
+.card-name{
+    text-align: center;
+    text-decoration: dashed;
+}
+
+.card-body{
+    margin-top: 15px;
+    text-align: justify;
+    margin: 5px;    
+}
