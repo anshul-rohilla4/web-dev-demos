@@ -1,0 +1,30 @@
+.author{
+    font-size: 12px;
+    display: block;
+    color: rgb(101, 101, 101);
+    line-height: 5px;
+    margin-top: 15px;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+.stats{
+    font-size: 12px;
+    display: block;
+    color: gray;
+    line-height: 5px;
+    margin-top: 12px;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+
+.p{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 15px2
+
+}
+*,html,
+.body {
+    margin:0;
+    padding:0;
+}
+

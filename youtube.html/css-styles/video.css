@@ -1,0 +1,60 @@
+.thumbnail{
+    width: 100%;
+    border-radius: 2px;
+}
+
+.thumbnail:hover{
+    border-radius: 15px;
+    transform: scale(1.05);
+    transition: .25s;
+}
+
+.link{
+    color: rgb(0, 0, 0);
+    text-decoration: none; 
+    font-weight:590;
+    line-height: 18px;
+    font-family: Roboto, Arial, sans-serif;
+    
+
+}
+
+
+
+
+
+
+.video-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+
+
+
+
+}
+.logo{
+    width: 50px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+.video-info{
+    width: 200px;
+    display: inline-block;
+}
+.channel-logo{
+    width:40px;
+    border-radius: 50px;
+    
+
+}
+
+
+.video--grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 40px;
+
+}

@@ -1,0 +1,23 @@
+.page{
+    display: flex;
+    flex-direction:row ;
+    
+
+}
+
+.left-part{
+    display: flex;
+    min-width: 70px;
+    
+    
+
+    
+    background-color: rgb(255, 127, 127);
+}
+
+.right-part{
+    margin-left: 20px;
+    display: flex;
+    flex: 1;
+
+}
