@@ -1,0 +1,124 @@
+body {
+    background-color: rgb(246, 255, 161) !important;
+    padding-bottom: 100px;
+    min-width: 360px;
+
+}  
+
+
+.container-fluid{
+    background-color: rgb(240, 255, 110) ;
+    justify-content: end;
+
+}
+
+
+#navbarNavDropdown{
+    justify-content: end;
+}
+.navbar-brand{
+    margin-top: 15px;
+    font-weight: 400;
+}
+.d-flex{
+    max-width: 700px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.search-bar{
+    display: flex;
+    max-width: 900px;
+    border: 0px solid black;
+    border-radius: 20px;
+    height: 45px;
+    margin-top: 5px;
+}
+
+.nav-item{
+    display: flex;
+    justify-content: center;
+    border: 2.5px dotted rgb(255, 255, 255);
+    border-radius: 25px;
+    min-width: 70px;
+    min-width: 60px;
+    font-weight: 440;
+    transition: .3s;
+}
+.nav-item:hover{
+    font-weight: 500;
+    background-color: yellow;
+}
+
+
+.middle-section{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    margin-top: 100px;
+    overflow: hidden; 
+
+}
+
+.top-video {
+    max-height: 400px;
+    border-radius: 10px;
+    border: 2px dotted rgb(156, 255, 90);
+
+}
+
+
+
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    padding: 20px;
+    margin-top: 50px;
+
+}
+
+.card {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: rgb(49, 162, 255) !important;
+}
+
+
+
+.card-subtitle{
+    color: #4aa1ff !important;
+    margin-top: 5px;
+}
+
+.card-text {
+    margin-top: 10px;
+    color: rgb(255, 100, 53);
+}
+
+.text-muted {
+    color: #999;
+    font-size: 0.9rem;
+    bottom: 0%;
+}
